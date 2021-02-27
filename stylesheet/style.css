@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1F1626;
+	color: white;
+	font-size: 9px;
+	font-family: 'Roboto Mono', monospace;font-family: 'Roboto Mono', monospace;
+	background-image: url(/imgs/champion.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: top right;
+}
+
+
+
+h3 {
+	color: #873BDB;
+}
+
+
+.pink {
+	color: #D94085;
+}
+
+
+a {
+	color: #2AB250;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.lesson {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #1A1320;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bolden {
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+
+.card {
+	margin-bottom: 12%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+	body {
+		font-size: 12px;
+		background-size: 100px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 14px;
+}
+
+
+
+}
+
+hr {
+	border: 1px dashed #281c30;
+}
