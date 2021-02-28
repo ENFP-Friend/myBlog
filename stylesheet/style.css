@@ -5,7 +5,7 @@ body {
 	margin-right: auto;
 	background-color: #1F1626;
 	color: white;
-	font-size: 9px;
+	font-size: 12px;
 	font-family: 'Roboto Mono', monospace;font-family: 'Roboto Mono', monospace;
 	background-image: url(/imgs/champion.png);
 	background-repeat: no-repeat;
@@ -74,7 +74,7 @@ img {
 @media only screen and (min-width: 600px) {
 
 	body {
-		font-size: 12px;
+		font-size: 14px;
 		background-size: 100px;
 }
 
@@ -84,7 +84,7 @@ img {
 
 @media only screen and (min-width: 768px) {
 	body {
-		font-size: 14px;
+		font-size: 15px;
 }
 
 
@@ -93,4 +93,25 @@ img {
 
 hr {
 	border: 1px dashed #281c30;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #873BDB;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: mediumpurple;
+	padding: 20px;
+	font-size: 35px;
+	text-align: center;
+	border: 1px solid #873BDB;
+}
+
+
+.grid-item:hover {
+	background-color: #873BDB;
 }
