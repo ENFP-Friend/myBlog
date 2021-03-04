@@ -38,7 +38,9 @@ a:hover {
 
 .lesson {
 	padding: 5px;
-	border-radius: 10px;
+	perspective(75em)
+	rotateX(18deg);
+border-radius: 10px;
 	background-color: #1A1320;
 	width: 80%;
 	margin-left: auto;
@@ -69,6 +71,9 @@ a:hover {
 img {
 	width: 100%;
 	height: auto;
+	perspective(75em)
+	rotateX(18deg);
+border-radius: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -101,6 +106,11 @@ hr {
 	grid-template-columns: auto auto auto;
 	background-color: #873BDB;
 	padding: 10px;
+	transform:
+	perspective(75em)
+	rotateX(18deg);
+border-radius: 10px;
+
 }
 
 .grid-item {
