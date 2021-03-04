@@ -7,10 +7,64 @@ body {
 	color: white;
 	font-size: 12px;
 	font-family: 'Roboto Mono', monospace;font-family: 'Roboto Mono', monospace;
-	background-image: url(/imgs/champion.png);
+padding: 5px;
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-position: top right;
+
+}
+
+.grid-logo {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #873BDB;
+	padding: 5px;
+	transform:
+	perspective(75em)
+	rotateX(18deg);
+	border-radius: 10px;
+
+}
+
+
+.logo-write {
+	padding-left: 130px;
+	position: absolute;
+}
+
+.grid-logo-item:hover {
+	opacity:1;
+}
+
+
+.grid-logo-item {
+	background-color: #DB9470;
+padding: 15px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #873BDB;
+	opacity: 0.8;
+}
+
+.item2 {
+	background-color: #708DDB;
+}
+
+.item3 {
+	background-color: #DBB570;
+}
+
+.item4 {
+	background-color: #DB7085;
+}
+
+.item5 {
+	background-color: #708DDB;
+}
+
+
+.grid-i.2 {
+	background-color: #708DDB;
 }
 
 
@@ -124,4 +178,9 @@ border-radius: 10px;
 
 .grid-item:hover {
 	background-color: #873BDB;
+}
+
+.orange {
+	color: #FFA238;
+	font-weight: bold;
 }
