@@ -124,7 +124,7 @@ img {
 	height: auto;
 	perspective(75em)
 	rotateX(18deg);
-border-radius: 10px;
+	border-radius: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -151,6 +151,21 @@ hr {
 	border: 1px dashed #281c30;
 }
 
+hr.align::before {
+	color: #906ba9;
+	content:"Note: The grid's total height has to be less than the container's height for the align-content property to have any effect.";
+	display: block;
+	font-size: 30px;
+}
+
+hr.align::after {
+	color: #3B2947;
+	margin-top:5px;
+	content:"Align-content:";
+	display: block;
+	font-size: 30px;
+}
+
 
 .grid-container {
 	display: grid;
@@ -163,6 +178,8 @@ hr {
 border-radius: 10px;
 
 }
+
+
 
 .grid-item {
 	background-color: mediumpurple;
@@ -180,4 +197,69 @@ border-radius: 10px;
 .orange {
 	color: #FFA238;
 	font-weight: bold;
+}
+
+
+
+.justify-content1 {
+	justify-content: start;
+}
+.justify-content2 {
+	justify-content: end;
+}
+.justify-content3 {
+	justify-content: center;
+}
+.justify-content4 {
+	justify-content: space-between;
+}
+.justify-content5 {
+	justify-content: space-evenly;
+}
+.justify-content6 {
+	justify-content: space-around;
+}
+
+
+
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #6C23BE;
+	padding: 10px;
+	transform:
+	perspective(75em)
+	rotateX(18deg);
+	border-radius: 10px;
+
+/* adjusting height so align-content works */
+
+height: 400px;
+
+}
+
+
+
+.align-content1 {
+  align-content:start;
+}
+
+.align-content2 {
+  align-content:end;
+}
+
+.align-content3 {
+	align-content: center;
+}
+
+.align-content4 {
+	align-content: space-between;
+}
+
+.align-content5 {
+	align-content: space-evenly;
+}
+
+.align-content6 {
+	align-content: space-around;
 }
