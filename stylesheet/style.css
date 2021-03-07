@@ -176,6 +176,7 @@ hr.align::after {
 	perspective(75em)
 	rotateX(18deg);
 border-radius: 10px;
+height: 300px;
 
 }
 
