@@ -176,7 +176,7 @@ hr.align::after {
 	perspective(75em)
 	rotateX(18deg);
 border-radius: 10px;
-height: 300px;
+height: 400px;
 
 }
 
@@ -264,3 +264,150 @@ height: 400px;
 .align-content6 {
 	align-content: space-around;
 }
+
+.newcontainer {
+	display: grid;
+	grid-template-rows: 20px 150px;
+}
+
+
+.item1:hover {
+	background-color:#DB9470;
+}
+
+
+
+.item7:hover {
+	background-color: #DB7085;
+}
+
+.item1b:hover {
+	background-color: #708DDB;
+}
+
+.newcontainer2 {
+	display: grid;
+	grid-template-columns: 20px 150px;
+}
+
+
+.item1a {
+	display: grid;
+	grid-column: 1/5;
+}
+
+.newcontainer3 {
+	background-color: #1F1626;
+}
+
+.item1a:hover {
+	background-color:#DB9470
+}
+
+.item1a:hover {
+	background-color:#DB9470
+}
+
+.item1b {
+	display: grid;
+	grid-row: 1/6;
+}
+
+.fullwidth {
+	display:block;
+	width: 100%;
+	position:absolute;
+	left: 0;
+}
+
+.item2a {
+	display: grid;
+	grid-area: 1 / 2 / 8 / 3;
+}
+
+.item2a:hover {
+	background-color:#70db94
+
+}
+
+.pushdown {
+	margin-top: 200px;
+}
+
+.pushdown.two {
+	margin-top: 450px;
+}
+
+.red {
+	color: red;
+}
+
+
+
+
+.item1c { grid-area: header; }
+.item2c { grid-area: menu; }
+.item3c { grid-area: main; }
+.item4c { grid-area: right; }
+.item5c { grid-area: footer; }
+
+
+
+.grid-container4 {
+	display: grid;
+	grid-gap: 10px;
+	padding: 20px;
+
+	grid-template-areas: 'header header header header header header'
+				'menu main main main right right'
+				'menu footer footer footer footer footer';
+}
+
+
+.item1d { grid-area: a; }
+.item2d { grid-area: b; }
+.item3d { grid-area: c; }
+.item4d { grid-area: d; }
+
+
+
+.grid-container5 {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	grid-gap: 2rem;
+	grid-template-areas: "a b"
+						 "c ."
+						 "d d";
+}
+
+
+.purpStyle {
+	border: 5px solid #873BDB;
+	padding: 5px;
+
+	transform:
+	perspective(75em)
+	rotateX(18deg);
+	border-radius: 10px;
+}
+
+.newlogo1 { grid-area: e;
+	
+
+	; }
+.newlogo2 { grid-area: n; }
+.newlogo3 { grid-area: f; }
+.newlogo4 { grid-area: p; }
+
+.grid-logoV2 {
+	display: grid;
+	grid-template-rows: 1fr 4fr 3fr;
+	grid-template-columns: 2fr 1fr;
+
+	grid-template-areas: "e n"
+						 "f ."
+						 ". p";
+	grid-gap: 1rem;
+}
+
+
