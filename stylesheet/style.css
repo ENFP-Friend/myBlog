@@ -331,7 +331,7 @@ height: 400px;
 }
 
 .pushdown {
-	margin-top: 200px;
+	margin-top: 100px;
 }
 
 .pushdown.two {
@@ -373,8 +373,7 @@ height: 400px;
 
 .grid-container5 {
 	display: grid;
-	grid-template-rows: 1fr 2fr;
-	grid-gap: 2rem;
+
 	grid-template-areas: "a b"
 						 "c ."
 						 "d d";
@@ -392,7 +391,7 @@ height: 400px;
 }
 
 .newlogo1 { grid-area: e;
-	
+
 
 	; }
 .newlogo2 { grid-area: n; }
@@ -411,3 +410,175 @@ height: 400px;
 }
 
 
+
+
+.grid-container {
+	text-align: center;
+	display: grid;
+}
+
+.grid-newitem1 {
+	grid-area: 1 / 2 / 4/ 2;
+	background-color: blue;
+}
+
+.grid-newitem2 {
+	grid-area: 2 / 1 / 4 / 1;
+	background-color: rgb(62, 62, 252);
+}
+
+.grid-newitem3 {
+	grid-area: 2 / 3 / 4 / 3;
+	background-color: rgb(62, 62, 252);
+
+}
+
+
+.newElement3 {
+	grid-area: newElement3;
+	background-color: red;
+}
+
+
+.newElement1 {
+	grid-area: newElement1;
+	background-color: rgb(0, 255, 98);
+}
+
+.newElement2 {
+	grid-area: newElement2;
+	background-color: rgb(98, 0, 255);
+}
+
+.newElement4 {
+	grid-area: newElement4;
+	background-color: rgb(255, 187, 0);
+}
+
+.newElement5 {
+	grid-area: newElement5;
+	background-color: rgb(204, 0, 255);
+}
+
+.newElement6 {
+	grid-area: newElement6;
+	background-color: rgb(255, 145, 0);
+}
+
+
+
+
+
+
+.grid-container.newarea {
+	display: grid;
+	grid-template-areas: "newElement3 newElement3 newElement3" "newElement2 newElement1 newElement4" "newElement2 newElement5 newElement6"
+}
+
+
+
+
+.grid-item-never-seen{
+	grid-area: A;
+	background-color: blue
+}
+
+.grid-item-never-seen2{
+	grid-area: B;
+	background-color: chartreuse;
+}
+.grid-item-never-seen3{
+	grid-area: C;
+	background-color: orange;
+}
+.grid-item-never-seen4{
+	grid-area: D;
+	background-color: greenyellow
+}
+.grid-item-never-seen5{
+	grid-area: E;
+	background-color: aquamarine;
+}
+.grid-item-never-seen6{
+	grid-area: F;
+	background-color: darkslategrey;
+}
+
+
+.grid-container-new {
+	display: grid;
+	grid-template-areas: "A A"
+											 "D D"
+											 "E F";
+										 }
+
+
+
+
+
+										 .centered {
+										   width: 80%;
+										   height: 100%;
+										   margin-left: auto;
+										   margin-right: auto;
+
+										 }
+
+
+
+										 .cardImg {
+										   width: 100%;
+										   max-width: 500px;
+										   height: auto;
+										   border-radius: 15px 15px 0px 0px;
+
+										 }
+
+										 .cardv2 {
+											 display: block;
+										 margin-bottom: 20px;
+										   background-color: white;
+										   border-radius: 18px;
+										 width: 350px;
+										   height: 500px;
+										 color: black;
+										 text-align: center;
+										 box-shadow: 10px 10px 10px black;
+
+										 }
+
+
+										 hr {
+										   border-bottom-style: 1px solid white;
+										 }
+
+
+										 .small {
+										   font-size: 10px;
+										 }
+
+
+										 .cardv2:hover {
+
+										   animation-duration: 2s;
+										   animation-name: test;
+										 }
+
+
+										 @keyframes test {
+										   from {transform: scale(1.0);}
+										   to {transform: scale(1.2);}
+										 }
+
+
+
+
+
+										 /*
+
+										 Master box shadow
+										 Animations
+										 border-radius (top)
+										 Responsiveness
+
+										 */
